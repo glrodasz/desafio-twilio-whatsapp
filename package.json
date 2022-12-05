@@ -1,0 +1,16 @@
+{
+  "name": "desafio-twilio-whatsapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "twilio": "^3.83.4"
+  }
+}
